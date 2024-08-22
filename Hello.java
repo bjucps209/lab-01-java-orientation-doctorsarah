@@ -5,6 +5,7 @@ class Hello {
         Scanner scan = new Scanner(System.in);
         int num1 = Integer.parseInt(scan.nextLine());
         int num2 = Integer.parseInt(scan.nextLine());
-        System.out.println("The sum is: " + num1 + num2);
+        int num3 = Integer.parseInt(scan.nextLine());
+        System.out.println("The sum is: " + (num1 + num2 + num3));
     }
 }   
